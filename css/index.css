@@ -1,13 +1,13 @@
-body{
+body {
     background-color: #232323;
 }
 
-main{
+main {
     min-height: 150vh;
 }
 
 /*LANDING*/
-.landing{
+.landing {
     width: 100%;
     height: 100vh;
     background-color: rgb(43, 47, 50);
@@ -15,22 +15,26 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/platos/pancakes.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-.landing__textCont{
+.landing__textCont {
     text-align: center;
     width: 60%;
     font-size: 30px;
 }
 
-.landing__textCont h2{
+.landing__textCont h2 {
     margin-bottom: 50px;
 }
 
-.landing__btn{
+.landing__btn {
     background-color: rgb(56, 118, 73);
     font-size: 28px;
-    padding: 20px 50px 20px 50px ;
+    padding: 20px 50px 20px 50px;
     margin-top: 100px;
     text-decoration: none;
     color: white;
@@ -38,50 +42,51 @@ main{
 
 /*STORY*/
 
-.ourStory{
+.ourStory {
     margin-top: 150px;
     height: 700px;
     width: 100%;
     display: flex;
 }
 
-.ourStory__photoCont,.ourStory__textCont{
+.ourStory__photoCont,
+.ourStory__textCont {
     width: 50%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.ourStory__photoCont{
-
+.ourStory__photoCont {
     gap: 20px;
 }
-.ourStory__photoCont__left,.ourStory__photoCont__right{
+.ourStory__photoCont__left,
+.ourStory__photoCont__right {
     width: 280px;
 }
-.ourStory__photoCont__right{
+.ourStory__photoCont__right {
     margin-top: 60px;
 }
-.ourStory__photoCont img{
+.ourStory__photoCont img {
     height: 300px;
     width: 280px;
     background-color: white;
     margin-bottom: 15px;
 }
-.ourStory__textCont{
+.ourStory__textCont {
     font-size: 24px;
     flex-direction: column;
     padding: 50px 200px 50px 50px;
 }
 
-.ourStory h3{
+.ourStory h3 {
     font-size: 40px;
     width: 100%;
     margin-bottom: 30px;
 }
 
 /*TODAYS SPECIALS*/
-.todaySpecials{
+.todaySpecials {
     height: 1000px;
     width: 100%;
     display: flex;
@@ -89,17 +94,17 @@ main{
     align-items: center;
     flex-direction: column;
 }
-.todaySpecials__titleCont{
+.todaySpecials__titleCont {
     width: 45%;
     height: 200px;
     text-align: center;
     font-size: 24px;
 }
-.todaySpecials__titleCont h3{
+.todaySpecials__titleCont h3 {
     font-size: 40px;
     margin-bottom: 30px;
 }
-.todaySpecials__foodCont{
+.todaySpecials__foodCont {
     width: 75%;
     height: 400px;
     display: flex;
@@ -107,52 +112,57 @@ main{
     align-items: center;
     gap: 5%;
 }
-.dishCont{
+.dishCont {
     height: 100%;
     width: 25%;
     border: 2px solid #ffffff;
 }
-.dish__imgCont{
+.dish__imgCont {
     width: 100%;
     height: 60%;
     background-color: rgb(213, 113, 113);
 }
-.dish__infoCont{
+.dish__imgCont img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.dish__infoCont {
     height: 40%;
     padding: 20px;
     background-color: #393939;
 }
-.dish__infoCont__name{
+.dish__infoCont__name {
     font-size: 18px;
     margin-bottom: 25px;
 }
-.dish__infoCont__time{
+.dish__infoCont__time {
     display: flex;
     gap: 10px;
     font-size: 14px;
     margin-bottom: 25px;
 }
-.dish__infoCont__time img{
+.dish__infoCont__time img {
     background-color: white;
     width: 20px;
     height: 20px;
 }
-.dish__calification{
+.dish__calification {
     width: 100%;
     display: flex;
 }
-.dish__calification a{
+.dish__calification a {
     margin: auto;
     color: white;
 }
-.dish__calification__stars{
+.dish__calification__stars {
     width: 50%;
     display: flex;
     justify-content: left;
     align-items: center;
     gap: 5px;
 }
-.dish__calification__stars img{
+.dish__calification__stars img {
     width: 20px;
     height: 20px;
     background-color: white;
@@ -162,7 +172,7 @@ main{
 
 /*DISCOVER US*/
 
-.discoverUs{
+.discoverUs {
     width: 100%;
     height: 500px;
     background-color: #161616;
@@ -173,23 +183,27 @@ main{
     padding: 5%;
     gap: 100px;
 }
-.discoverUs__textCont{
+.discoverUs__textCont {
     width: 50%;
     font-size: 24px;
     padding: 100px;
 }
-.discoverUs__textCont h3{
+.discoverUs__textCont h3 {
     font-size: 40px;
     margin-bottom: 30px;
 }
-.discoverUs__imgCont{
+.discoverUs__imgCont {
     width: 35%;
     height: 350px;
     border: 2px solid white;
 }
-
+.discoverUs__imgCont img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 /*GALLERY*/
-.gallery{
+.gallery {
     width: 100%;
     height: 900px;
     display: flex;
@@ -198,33 +212,45 @@ main{
     flex-direction: column;
     margin-top: 150px;
 }
-.gallery__titleCont{
+.gallery__titleCont {
     width: 45%;
     height: 200px;
     text-align: center;
     font-size: 24px;
 }
-.gallery__titleCont h3{
+.gallery__titleCont h3 {
     margin-bottom: 30px;
     font-size: 40px;
 }
-.gallery__imgCont{
-    width: 100%;  
+.gallery__imgCont {
+    width: 100%;
     height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
-.gallery__colum1,.gallery__colum2,.gallery__colum3{
+.gallery__imgCont img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.gallery__colum1,
+.gallery__colum2,
+.gallery__colum3 {
     width: 27%;
     height: 100%;
     border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.gallery__colum2 img {
+    height: 48%;
+    width: 100%;
 }
 /*OPINIONS*/
-.opinions{
+.opinions {
     width: 100%;
     height: 60%;
-
 }
-

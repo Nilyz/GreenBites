@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 * {
     margin: 0;
     padding: 0;
@@ -27,7 +27,7 @@ header {
     display: flex;
 }
 .logoCont {
-    width: 40%;
+    width: 60%;
     height: 100%;
     display: flex;
     justify-content: left;
@@ -43,11 +43,12 @@ header {
     font-size: 28px;
 }
 .navCont {
-    width: 60%;
+    width: 50%;
     height: 100%;
 }
 .navCont_list {
-    width: 70%;
+    font-size: 20px;
+    width: 80%;
     height: 100%;
     margin: auto;
     display: flex;
