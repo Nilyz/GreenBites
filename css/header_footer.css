@@ -14,11 +14,13 @@ body {
     flex-direction: column;
     position: relative;
     color: white;
-}
-main {
-    margin-bottom: 130px;
+    background-color: #232323;
 }
 
+main{
+    min-height: 150vh;
+    margin-bottom: 130px;
+}
 /*HEADER*/
 header {
     width: 100%;
