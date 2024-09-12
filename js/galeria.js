@@ -1,5 +1,7 @@
 
-const dishSection__cardCont = document.querySelector(".dishSection__cardCont");
+const dishCardCont = document.querySelector(".dishSection__cardCont");
+const dessertCardCont = document.querySelector(".dessertSection__cardCont");
+
 
 let res;
 
@@ -13,12 +15,16 @@ request.onload = function () {
     res = request.response;
     console.log(res); 
 
-    if (res && res.length > 0) {
-        createDishCards(res); // Llamar a la función pasando los datos del JSON
+    if (res.dishes && res.dishes.length > 0) {
+        createDishCards(res.dishes); // Llamar a la función pasando los datos del JSON
+    }
+    if (res.desserts && res.desserts.length > 0) {
+        createDishCards(res.desserts); // Llamar a la función pasando los datos del JSON
     }
 };
 
 function createDishCards(platos){
+    
     platos.forEach(plato => {
         const dishCont = document.createElement('div');
                 dishCont.classList.add('dishCont');
@@ -71,8 +77,14 @@ function createDishCards(platos){
                 dish__price.appendChild(orderLink);
                 
 
-                // Añadir el contenedor al DOM
-                dishSection__cardCont.appendChild(dishCont);
+                // Añadir el contenedor al DOM despendiendo de si es plato o postre
+                if(platos===res.dishes){
+                    dishCardCont.appendChild(dishCont);
+                }else if(platos===res.desserts){
+                    dessertCardCont.appendChild(dishCont);
+
+                }
+                
     })
     
 }

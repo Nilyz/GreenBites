@@ -1,0 +1,112 @@
+.contactLanding {
+    height: 70vh;
+    background-image: url("../img/platos/pancakes.avif");
+    background-size: cover;
+    background-position: center;
+}
+.contactTextCont {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    margin-top: 100px;
+}
+.contactTitle {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.contactTextCont p {
+    font-size: 24px;
+}
+.mapSectionCont {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px 0 100px;
+    gap: 150px;
+}
+
+.mapFormCont {
+    height: 650px;
+    width: 450px;
+    position: relative;
+}
+.mapFormCont__Border1,
+.mapFormCont__Border2 {
+    border: 2px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mapFormCont__Border1 {
+    height: 640px;
+    width: 450px;
+}
+.mapFormCont__Border2 {
+    height: 620px;
+    width: 470px;
+}
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 85%;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #161616;
+}
+
+.form h3 {
+    font-size: 30px;
+    width: 85%;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+.inputDirection {
+    width: 85%;
+    height: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inputDirection input {
+    width: 63%;
+    height: 40px;
+    border: none;
+    background-color: #393939;
+    padding: 0 10px 0 10px;
+}
+.inputDirection button {
+    width: 35%;
+    height: 40px;
+    font-size: 16px;
+}
+#btn_getLocation {
+    height: 55px;
+    width: 85%;
+    font-size: 18px;
+    margin-top: 60px;
+}
+button {
+    background-color: #393939;
+    border: none;
+    color: white;
+}
+.mapCont {
+    height: 650px;
+    width: 800px;
+    background-color: #161616;
+}
+
+hr {
+    width: 65%;
+    border: 1px solid white;
+    border-radius: 2px;
+}

@@ -1,3 +1,6 @@
+
+
+
 .menuLanding{
     border: 2px solid white;
     height: 70vh;
@@ -5,17 +8,25 @@
 
 
 .dessertSection,.dishSection{
-    border: 2px solid rgb(157, 83, 83);
     height: auto;
+    padding-top: 100px;
 }
 
 .dishSection__title,.dessertSection__title{
     width: 100%;
     text-align: center;
-    font-size: 32px;
+    font-size: 38px;
+    padding: 20px;
 }
-.dishSection__cardCont{
-    border: 2px solid rgb(3, 47, 57);
+.dishSection__title p,.dessertSection__title p{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: 24px;
+    padding: 40px;
+
+}
+.dishSection__cardCont, .dessertSection__cardCont{
     width: 100%;
     height: 100%;
     display: flex;
@@ -25,14 +36,15 @@
     flex-wrap:wrap ;
     padding: 0px 80px 0px 80px;
 }
-/*Estilo para las tarjetas*/
 
+
+/*Estilo para las tarjetas*/
 .dishCont {
     height: 100%;
-    width: 18%;
+    width: 25%;
     border-radius: 3px;
     overflow: hidden;
-    margin-top: 100px;
+    margin: 50px 0 100px 0;
     background-color: #393939;
 }
 .dish__imgCont {
@@ -49,23 +61,24 @@
     padding: 20px 40px 20px 40px;
 }
 .dish__infoCont__name {
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 25px;
 }
 .dish__infoCont__time {
     display: flex;
     gap: 10px;
-    font-size: 14px;
+    font-size: 18px;
     margin-bottom: 25px;
 }
 .dish__infoCont__time img {
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
 }
 .dish__price {
     width: 100%;
     display: flex;
     margin: auto;
+    font-size: 18px;
 }
 .dish__price p {
     color: white;

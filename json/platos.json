@@ -1,48 +1,67 @@
-[
-    {
-        
-        "dishName":"French Toast with maple",
-        "dishImg":"../img/platos/pancakes.avif",
-        "preparationTime":"10 min",
-        "price":"15,00 €"
-    },
-    {
-        
-        "dishName":"French Toast with maple",
-        "dishImg":"../img/platos/pancakes.avif",
-        "preparationTime":"10 min",
-        "price":"15,00 €"
-    },
-    {
-        
-        "dishName":"French Toast with maple",
-        "dishImg":"../img/platos/pancakes.avif",
-        "preparationTime":"10 min",
-        "price":"15,00 €"
-    },{
-        
-        "dishName":"French Toast with maple",
-        "dishImg":"../img/platos/pancakes.avif",
-        "preparationTime":"10 min",
-        "price":"15,00 €"
-    },{
-        
-        "dishName":"French Toast with maple",
-        "dishImg":"../img/platos/pancakes.avif",
-        "preparationTime":"10 min",
-        "price":"15,00 €"
-    },{
-        
-        "dishName":"French Toast with maple",
-        "dishImg":"../img/platos/pancakes.avif",
-        "preparationTime":"10 min",
-        "price":"15,00 €"
-    },{
-        
-        "dishName":"French Toast with maple",
-        "dishImg":"../img/platos/pancakes.avif",
-        "preparationTime":"10 min",
-        "price":"15,00 €"
-    }
+{
+    "dishes": [
+        {
+            "dishName": "French Toast with maple",
+            "dishImg": "../img/platos/pancakes.avif",
+            "preparationTime": "10 min",
+            "price": "15,00 €"
+        },
+        {
+            "dishName": "French Toast with maple",
+            "dishImg": "../img/platos/pancakes.avif",
+            "preparationTime": "10 min",
+            "price": "15,00 €"
+        },
+        {
+            "dishName": "French Toast with maple",
+            "dishImg": "../img/platos/pancakes.avif",
+            "preparationTime": "10 min",
+            "price": "15,00 €"
+        },
+        {
+            "dishName": "French Toast with maple",
+            "dishImg": "../img/platos/pancakes.avif",
+            "preparationTime": "10 min",
+            "price": "15,00 €"
+        },
+        {
+            "dishName": "French Toast with maple",
+            "dishImg": "../img/platos/pancakes.avif",
+            "preparationTime": "10 min",
+            "price": "15,00 €"
+        },
+        {
+            "dishName": "French Toast with maple",
+            "dishImg": "../img/platos/pancakes.avif",
+            "preparationTime": "10 min",
+            "price": "15,00 €"
+        },
+        {
+            "dishName": "French Toast with maple",
+            "dishImg": "../img/platos/pancakes.avif",
+            "preparationTime": "10 min",
+            "price": "15,00 €"
+        }
+    ],
+    "desserts": [
+        {
+            "dishName": "French Toast with maple",
+            "dishImg": "../img/platos/pancakes.avif",
+            "preparationTime": "10 min",
+            "price": "15,00 €"
+        },
+        {
+            "dishName": "French Toast with maple",
+            "dishImg": "../img/platos/pancakes.avif",
+            "preparationTime": "10 min",
+            "price": "15,00 €"
+        },
+        {
+            "dishName": "French Toast with maple",
+            "dishImg": "../img/platos/pancakes.avif",
+            "preparationTime": "10 min",
+            "price": "15,00 €"
+        }
+    ]
 
-]
+}
