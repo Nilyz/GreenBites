@@ -1,4 +1,4 @@
-
+//dom elements
 const dishCardCont = document.querySelector(".dishSection__cardCont");
 const dessertCardCont = document.querySelector(".dessertSection__cardCont");
 

@@ -50,6 +50,7 @@ h3 {
     padding: 0 20px 0 20px;
     margin-bottom: 20px;
     font-size: 18px;
+    color: white;
 }
 
 .platos label {
@@ -109,7 +110,8 @@ h3 {
 }
 .privacidadCont:hover a {
     text-decoration: underline;
-    color: rgb(40, 77, 53);
+    color: #3fa33d;
+    transition: all 0.1s ease ;
 }
 
 .btnCont {
@@ -127,8 +129,10 @@ button {
 }
 
 button:hover {
-    background-color: rgb(40, 77, 53);
+    background-color: #3fa33d;
     color: white;
+    cursor: pointer;
+    transition: all 0.1s ease ;
 }
 
 .formCont1{

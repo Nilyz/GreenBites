@@ -1,30 +1,30 @@
 [
     {
-        "img": "../img/platos/pancakes.avif",
+        "img": "../img/iconos/persona1.jpeg",
         "review": "Este restaurante ha superado mis expectativas. Desde el momento en que entré, me sentí bienvenido. El ambiente es acogedor y la atención al cliente es excepcional. La comida es deliciosa, y los platos están presentados de manera hermosa. Definitivamente volveré."
     },
     {
-        "img": "../img/platos/pancakes.avif",
+        "img": "../img/iconos/persona2.jpg",
         "review": "La experiencia en este lugar fue inolvidable. Cada plato que probé estaba lleno de sabor y frescura. Me encantó la variedad del menú y la opción de personalizar mis platos. Sin duda, se ha convertido en uno de mis lugares favoritos para comer."
     },
     {
-        "img": "../img/platos/pancakes.avif",
+        "img": "../img/iconos/persona3.jpg",
         "review": "Simplemente espectacular. El servicio fue impecable y la comida, simplemente deliciosa. Cada bocado me dejó deseando más. El ambiente es perfecto para una cena romántica o una salida con amigos. Altamente recomendado."
     },
     {
-        "img": "../img/platos/pancakes.avif",
+        "img": "../img/iconos/persona4.avif",
         "review": "Este restaurante ofrece una experiencia culinaria excepcional. Los platos son creativos y bien ejecutados. Me sorprendió la calidad de los ingredientes. Sin duda, es un lugar al que regresaré con frecuencia."
     },
     {
-        "img": "../img/platos/pancakes.avif",
+        "img": "../img/iconos/persona5.avif",
         "review": "No puedo hablar lo suficiente sobre la calidad del servicio y la atención al detalle. La comida era deliciosa y el personal se aseguraba de que tuviéramos todo lo que necesitábamos. Una experiencia verdaderamente encantadora."
     },
     {
-        "img": "../img/platos/pancakes.avif",
+        "img": "../img/iconos/persona6.avif",
         "review": "Una joya escondida. Este restaurante tiene un ambiente cálido y acogedor. La comida es deliciosa y los precios son razonables. Disfruté cada plato que probé y el servicio fue excepcional. ¡Definitivamente volveré!"
     },
     {
-        "img": "../img/platos/pancakes.avif",
+        "img": "../img/iconos/persona7.avif",
         "review": "Simplemente increíble. El servicio fue atento y amigable. La comida estaba llena de sabor, y cada plato que probé fue una delicia. El ambiente es relajante, lo que lo convierte en un lugar perfecto para una cena tranquila."
     }
 ]

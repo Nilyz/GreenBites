@@ -1,3 +1,4 @@
+//dom elements
 const opinionsImg = document.querySelector(".opinions__userImg img");
 const opinionsText = document.querySelector(".opinions__userText p");
 
@@ -27,3 +28,5 @@ function updateContent() {
     index = (index + 1) % res.length;
     console.log(index);
 }
+
+

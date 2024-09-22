@@ -27,6 +27,12 @@ header {
     height: 90px;
     background-color: #161616;
     display: flex;
+    position: fixed;
+    z-index: 1000; 
+}
+header.scrolled {
+    background-color: #16161697; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
 }
 .logoCont {
     width: 60%;
@@ -40,6 +46,10 @@ header {
 .logoCont img {
     height: 45px;
     width: 45px;
+}
+.logoCont img:hover {
+    transition: all 0.1s ease;
+    transform: scale(1.1);
 }
 .logoCont p {
     font-size: 28px;
@@ -66,9 +76,95 @@ header {
     text-decoration: none;
     color: white;
 }
+.navCont_list a:hover {
+    transition: all 0.1s ease ;
+    color: #3fa33d;
+}
 /*FOOTER*/
 footer {
     width: 100%;
-    height: 150px;
+    height: 180px;
     background-color: #161616;
+    display: flex;
+}
+.footer__logoCont {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    padding-left: 5%;
+    font-size: 30px;
+}
+.footer__logoCont img {
+    height: 60px;
+    width: 60px;
+}
+.footer__logoCont img:hover {
+    transition: all 0.1s ease;
+    transform: scale(1.1);
+}
+
+.footer__reservationLinks,.footer__infoLinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+
+}
+.footer__reservationLinks p,.footer__infoLinks p,.footer__socialMedia p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #3fa33d;
+}
+.footer__reservationLinks_links{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.footer__reservationLinks a,.footer__infoLinks_links a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    color: #3fa33d;
+    text-decoration: underline;
+    transition: all 0.1s ease;  
+}   
+.footer__infoLinks_links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.footer__socialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+}
+
+.footer__socialMedia_links{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.footer__socialMedia_links img{
+    height: 50px;
+    width: 50px;
+}
+.footer__socialMedia_links img:hover{
+    transition: all 0.1s ease;
+    transform: scale(1.1);
+}
+.copy{
+    font-size: 14px;
+    color: white;
+    margin-top: 20px;
 }

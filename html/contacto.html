@@ -17,7 +17,7 @@
             src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"
             defer
         ></script>
-
+        <script src="../js/header.js"></script>
         <script src="../js/contacto.js" defer></script>
         <link
             rel="stylesheet"
@@ -29,7 +29,7 @@
     <body>
         <header>
             <div class="logoCont">
-                <img src="../img/logo.svg" alt="" height="60" width="60" >
+                <a href="../index.html"><img src="../img/logo.svg" alt="logo" height="60" width="60" ></a>
                 <p>Green Bites</p>
             </div>
             <div class="navCont">
@@ -76,6 +76,37 @@
                 <div class="mapCont" id="map"></div>
             </div>
         </main>
-        <footer></footer>
+        <footer>
+            <div class="footer__logoCont">
+                <a href="../index.html"><img src="../img/logo.svg" alt="logo" height="60" width="60" ></a>
+                <p>Green Bites</p>
+            </div>
+            <div class="footer__reservationLinks">
+                <p>Reservar</p>
+                <div class="footer__reservationLinks_links">
+                    <a href="../html/presupuesto.html">Reservar una mesa</a>
+                <a href="../html/contacto.html">Ubicación</a>
+                </div>
+            </div>
+            <div class="footer__infoLinks">
+                <p>Información</p>
+                <div class="footer__infoLinks_links">
+                    <a href="">Sobre Nosotros</a>
+                    <a href="">Trabajo con nosotros</a>
+                    <a href="">Política y Cookies</a>
+                </div>
+            </div>
+            <div class="footer__socialMedia">
+                <p>Síguenos</p>
+                <div class="footer__socialMedia_links">
+                    <a href=""><img src="../img/redes/facebook-svgrepo-com.svg" alt="facebook" ></a>
+                    <a href=""><img src="../img/redes/icons8-tik-tok.svg" alt="instagram" ></a>
+                    <a href=""><img src="../img/redes/instagram-svgrepo-com.svg" alt="twitter" ></a>
+                </div>
+                <div class="footer__socialMedia_copy">
+                    <h5 class="copy">©Todos los derechos reservados</h5>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>

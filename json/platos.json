@@ -8,37 +8,37 @@
         },
         {
             "dishName": "Ensalada de Pollo a la Parrilla",
-            "dishImg": "../img/platos/chicken_salad.avif",
+            "dishImg": "../img/platos/grilled-chicken-salad.jpg",
             "preparationTime": "15 min",
             "price": "12,50 €"
         },
         {
             "dishName": "Espagueti a la Carbonara",
-            "dishImg": "../img/platos/spaghetti.avif",
+            "dishImg": "../img/platos/espaguetis-a-la-carbonara_dd98718e_1200x1200.jpg",
             "preparationTime": "20 min",
             "price": "13,50 €"
         },
         {
             "dishName": "Tacos de Res",
-            "dishImg": "../img/platos/tacos.avif",
+            "dishImg": "../img/platos/tacos.jpg",
             "preparationTime": "25 min",
             "price": "11,00 €"
         },
         {
             "dishName": "Salteado de Verduras",
-            "dishImg": "../img/platos/stir_fry.avif",
+            "dishImg": "../img/platos/salteado.jpg",
             "preparationTime": "15 min",
             "price": "10,00 €"
         },
         {
             "dishName": "Salmón con Salsa de Eneldo",
-            "dishImg": "../img/platos/salmon.avif",
+            "dishImg": "../img/platos/Salmon-con-salsa-menier.jpg",
             "preparationTime": "30 min",
             "price": "18,00 €"
         },
         {
             "dishName": "Tazón de Quinoa",
-            "dishImg": "../img/platos/quinoa_bowl.avif",
+            "dishImg": "../img/platos/quinoaa.avif",
             "preparationTime": "20 min",
             "price": "14,00 €"
         }
@@ -46,19 +46,19 @@
     "desserts": [
         {
             "dishName": "Tarta de Chocolate",
-            "dishImg": "../img/postres/chocolate_cake.avif",
+            "dishImg": "../img/platos/tarta-chocolate.jpg",
             "preparationTime": "15 min",
             "price": "6,00 €"
         },
         {
             "dishName": "Tarta de Frutas",
-            "dishImg": "../img/postres/fruit_tart.avif",
+            "dishImg": "../img/platos/tarta_fruta.webp",
             "preparationTime": "15 min",
             "price": "5,00 €"
         },
         {
             "dishName": "Cheesecake",
-            "dishImg": "../img/postres/cheesecake.avif",
+            "dishImg": "../img/platos/cheesecake.jpg",
             "preparationTime": "25 min",
             "price": "7,50 €"
         }

@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="../css/header_footer.css" />
-        <link rel="stylesheet" href="../css/contacto.css" />
-        <link rel="stylesheet" href="../css/presupuesto.css" />
+        <meta charset="UTF-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <link rel="stylesheet" href="../css/header_footer.css" >
+        <link rel="stylesheet" href="../css/contacto.css" >
+        <link rel="stylesheet" href="../css/presupuesto.css" >
+        <script src="../js/header.js"></script>
         <script src="../js/presupuesto.js"></script>
         <title>Document</title>
     </head>
     <body>
         <header>
             <div class="logoCont">
-                <img src="../img/logo.svg" alt="" height="60px" width="60px" />
+                <a href="../index.html"><img src="../img/logo.svg" alt="logo" height="60" width="60" ></a>
                 <p>Green Bites</p>
             </div>
             <div class="navCont">
@@ -38,8 +39,8 @@
                                         maxlength="15"
                                         placeholder="Nombre"
                                         required
-                                    />
-                                    <br />
+                                    >
+                                    <br >
 
                                     <input
                                         type="text"
@@ -47,8 +48,8 @@
                                         maxlength="40"
                                         placeholder="Apellidos"
                                         required
-                                    />
-                                    <br />
+                                    >
+                                    <br >
 
                                     <input
                                         type="text"
@@ -56,15 +57,15 @@
                                         maxlength="9"
                                         placeholder="Teléfono"
                                         required
-                                    />
-                                    <br />
+                                    >
+                                    <br >
 
                                     <input
                                         type="email"
                                         id="email"
                                         placeholder="Correo"
                                         required
-                                    />
+                                    >
                                 </div>
                             </fieldset>
 
@@ -88,7 +89,7 @@
                                             Plato Principal 3 - 25€
                                         </option>
                                     </select>
-                                    <br />
+                                    <br >
 
                                     <label for="platoSecundario"
                                         >Selecciona un plato secundario:</label
@@ -116,7 +117,7 @@
                                             Plato Secundario 3 - 14€
                                         </option>
                                     </select>
-                                    <br />
+                                    <br >
 
                                     <label>Agregar extras:</label>
                                     <div class="extra">
@@ -124,7 +125,7 @@
                                             type="checkbox"
                                             id="postre"
                                             value="5"
-                                        />
+                                        >
                                         Postre (+5€)
                                     </div>
                                     <div class="extra">
@@ -132,7 +133,7 @@
                                             type="checkbox"
                                             id="bebida"
                                             value="3"
-                                        />
+                                        >
                                         Bebida (+3€)
                                     </div>
                                 </div>
@@ -145,7 +146,7 @@
                         </h3>
 
                         <div class="privacidadCont">
-                            <input type="checkbox" id="aceptar" required /><a
+                            <input type="checkbox" id="aceptar" value="0" required ><a
                                 href=""
                                 >Acepto las condiciones de privacidad</a
                             >
@@ -159,6 +160,37 @@
                 <div class="formCont2"></div>
             </div>
         </main>
-        <footer></footer>
+        <footer>
+            <div class="footer__logoCont">
+                <a href="../index.html"><img src="../img/logo.svg" alt="logo" height="60" width="60" ></a>
+                <p>Green Bites</p>
+            </div>
+            <div class="footer__reservationLinks">
+                <p>Reservar</p>
+                <div class="footer__reservationLinks_links">
+                    <a href="../html/presupuesto.html">Reservar una mesa</a>
+                <a href="../html/contacto.html">Ubicación</a>
+                </div>
+            </div>
+            <div class="footer__infoLinks">
+                <p>Información</p>
+                <div class="footer__infoLinks_links">
+                    <a href="">Sobre Nosotros</a>
+                    <a href="">Trabajo con nosotros</a>
+                    <a href="">Política y Cookies</a>
+                </div>
+            </div>
+            <div class="footer__socialMedia">
+                <p>Síguenos</p>
+                <div class="footer__socialMedia_links">
+                    <a href=""><img src="../img/redes/facebook-svgrepo-com.svg" alt="facebook" ></a>
+                    <a href=""><img src="../img/redes/icons8-tik-tok.svg" alt="instagram" ></a>
+                    <a href=""><img src="../img/redes/instagram-svgrepo-com.svg" alt="twitter" ></a>
+                </div>
+                <div class="footer__socialMedia_copy">
+                    <h5 class="copy">©Todos los derechos reservados</h5>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>

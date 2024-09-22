@@ -2,8 +2,11 @@
 
 
 .menuLanding{
-    border: 2px solid white;
     height: 70vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("../img/beneficios-saludables-frutas-verduras_redes.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -40,16 +43,19 @@
 
 /*Estilo para las tarjetas*/
 .dishCont {
-    height: 100%;
+    height: 500px;
     width: 25%;
     border-radius: 3px;
     overflow: hidden;
     margin: 50px 0 100px 0;
     background-color: #393939;
+    overflow: hidden;
+
 }
 .dish__imgCont {
     width: 100%;
     height: 60%;
+
 }
 .dish__imgCont img {
     height: 100%;
@@ -91,3 +97,7 @@
     justify-content: right;
 }
 
+.dish__price a:hover{
+    color: #3fa33d;
+    transition: all 0.1s ease ;
+}
