@@ -1,67 +1,66 @@
 {
     "dishes": [
         {
-            "dishName": "French Toast with maple",
+            "dishName": "Tostadas Francesas con Jarabe de Arce",
             "dishImg": "../img/platos/pancakes.avif",
             "preparationTime": "10 min",
             "price": "15,00 €"
         },
         {
-            "dishName": "French Toast with maple",
-            "dishImg": "../img/platos/pancakes.avif",
-            "preparationTime": "10 min",
-            "price": "15,00 €"
+            "dishName": "Ensalada de Pollo a la Parrilla",
+            "dishImg": "../img/platos/chicken_salad.avif",
+            "preparationTime": "15 min",
+            "price": "12,50 €"
         },
         {
-            "dishName": "French Toast with maple",
-            "dishImg": "../img/platos/pancakes.avif",
-            "preparationTime": "10 min",
-            "price": "15,00 €"
+            "dishName": "Espagueti a la Carbonara",
+            "dishImg": "../img/platos/spaghetti.avif",
+            "preparationTime": "20 min",
+            "price": "13,50 €"
         },
         {
-            "dishName": "French Toast with maple",
-            "dishImg": "../img/platos/pancakes.avif",
-            "preparationTime": "10 min",
-            "price": "15,00 €"
+            "dishName": "Tacos de Res",
+            "dishImg": "../img/platos/tacos.avif",
+            "preparationTime": "25 min",
+            "price": "11,00 €"
         },
         {
-            "dishName": "French Toast with maple",
-            "dishImg": "../img/platos/pancakes.avif",
-            "preparationTime": "10 min",
-            "price": "15,00 €"
+            "dishName": "Salteado de Verduras",
+            "dishImg": "../img/platos/stir_fry.avif",
+            "preparationTime": "15 min",
+            "price": "10,00 €"
         },
         {
-            "dishName": "French Toast with maple",
-            "dishImg": "../img/platos/pancakes.avif",
-            "preparationTime": "10 min",
-            "price": "15,00 €"
+            "dishName": "Salmón con Salsa de Eneldo",
+            "dishImg": "../img/platos/salmon.avif",
+            "preparationTime": "30 min",
+            "price": "18,00 €"
         },
         {
-            "dishName": "French Toast with maple",
-            "dishImg": "../img/platos/pancakes.avif",
-            "preparationTime": "10 min",
-            "price": "15,00 €"
+            "dishName": "Tazón de Quinoa",
+            "dishImg": "../img/platos/quinoa_bowl.avif",
+            "preparationTime": "20 min",
+            "price": "14,00 €"
         }
     ],
     "desserts": [
         {
-            "dishName": "French Toast with maple",
-            "dishImg": "../img/platos/pancakes.avif",
-            "preparationTime": "10 min",
-            "price": "15,00 €"
+            "dishName": "Tarta de Chocolate",
+            "dishImg": "../img/postres/chocolate_cake.avif",
+            "preparationTime": "15 min",
+            "price": "6,00 €"
         },
         {
-            "dishName": "French Toast with maple",
-            "dishImg": "../img/platos/pancakes.avif",
-            "preparationTime": "10 min",
-            "price": "15,00 €"
+            "dishName": "Tarta de Frutas",
+            "dishImg": "../img/postres/fruit_tart.avif",
+            "preparationTime": "15 min",
+            "price": "5,00 €"
         },
         {
-            "dishName": "French Toast with maple",
-            "dishImg": "../img/platos/pancakes.avif",
-            "preparationTime": "10 min",
-            "price": "15,00 €"
+            "dishName": "Cheesecake",
+            "dishImg": "../img/postres/cheesecake.avif",
+            "preparationTime": "25 min",
+            "price": "7,50 €"
         }
     ]
-
 }

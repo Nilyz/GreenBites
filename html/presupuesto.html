@@ -24,116 +24,141 @@
                 </ul>
             </div>
         </header>
-        <h1>Calcular Presupuesto</h1>
+        <main>
+            <div class="formCont">
+                <div class="formCont1">
+                    <form id="presupuestoForm">
+                        <div class="fieldsetCont">
+                            <fieldset class="contacto">
+                                <h3>Datos de Contacto</h3>
+                                <div class="inputCont">
+                                    <input
+                                        type="text"
+                                        id="nombre"
+                                        maxlength="15"
+                                        placeholder="Nombre"
+                                        required
+                                    />
+                                    <br />
 
-        <form id="presupuestoForm">
-            <div class="fieldsetCont">
-                <fieldset class="contacto">
-                    <h3>Datos de Contacto</h3>
-                    <div class="inputCont">
-                        <input
-                            type="text"
-                            id="nombre"
-                            maxlength="15"
-                            placeholder="Nombre"
-                            required
-                        />
-                        <br />
+                                    <input
+                                        type="text"
+                                        id="apellidos"
+                                        maxlength="40"
+                                        placeholder="Apellidos"
+                                        required
+                                    />
+                                    <br />
 
-                        <input
-                            type="text"
-                            id="apellidos"
-                            maxlength="40"
-                            placeholder="Apellidos"
-                            required
-                        />
-                        <br />
+                                    <input
+                                        type="text"
+                                        id="telefono"
+                                        maxlength="9"
+                                        placeholder="Teléfono"
+                                        required
+                                    />
+                                    <br />
 
-                        <input
-                            type="text"
-                            id="telefono"
-                            maxlength="9"
-                            placeholder="Teléfono"
-                            required
-                        />
-                        <br />
+                                    <input
+                                        type="email"
+                                        id="email"
+                                        placeholder="Correo"
+                                        required
+                                    />
+                                </div>
+                            </fieldset>
 
-                        <input
-                            type="email"
-                            id="email"
-                            placeholder="Correo"
-                            required
-                        />
-                    </div>
-                </fieldset>
+                            <fieldset class="platos">
+                                <h3>Presupuesto</h3>
+                                <div class="inputCont">
+                                    <label for="platoPrincipal"
+                                        >Selecciona un plato principal:</label
+                                    >
+                                    <select id="platoPrincipal" required>
+                                        <option value="" disabled selected>
+                                            Elige un plato principal
+                                        </option>
+                                        <option value="plato1" data-precio="15">
+                                            Plato Principal 1 - 15€
+                                        </option>
+                                        <option value="plato2" data-precio="20">
+                                            Plato Principal 2 - 20€
+                                        </option>
+                                        <option value="plato3" data-precio="25">
+                                            Plato Principal 3 - 25€
+                                        </option>
+                                    </select>
+                                    <br />
 
-                <fieldset class="platos">
-                    <h3>Presupuesto</h3>
-                    <div class="inputCont">
-                        <label for="platoPrincipal"
-                            >Selecciona un plato principal:</label
-                        >
-                        <select id="platoPrincipal" required>
-                            <option value="" disabled selected>
-                                Elige un plato principal
-                            </option>
-                            <option value="plato1" data-precio="15">
-                                Plato Principal 1 - 15€
-                            </option>
-                            <option value="plato2" data-precio="20">
-                                Plato Principal 2 - 20€
-                            </option>
-                            <option value="plato3" data-precio="25">
-                                Plato Principal 3 - 25€
-                            </option>
-                        </select>
-                        <br />
+                                    <label for="platoSecundario"
+                                        >Selecciona un plato secundario:</label
+                                    >
+                                    <select id="platoSecundario" required>
+                                        <option value="" disabled selected>
+                                            Elige un plato secundario
+                                        </option>
+                                        <option
+                                            value="secundario1"
+                                            data-precio="10"
+                                        >
+                                            Plato Secundario 1 - 10€
+                                        </option>
+                                        <option
+                                            value="secundario2"
+                                            data-precio="12"
+                                        >
+                                            Plato Secundario 2 - 12€
+                                        </option>
+                                        <option
+                                            value="secundario3"
+                                            data-precio="14"
+                                        >
+                                            Plato Secundario 3 - 14€
+                                        </option>
+                                    </select>
+                                    <br />
 
-                        <label for="platoSecundario"
-                            >Selecciona un plato secundario:</label
-                        >
-                        <select id="platoSecundario" required>
-                            <option value="" disabled selected>
-                                Elige un plato secundario
-                            </option>
-                            <option value="secundario1" data-precio="10">
-                                Plato Secundario 1 - 10€
-                            </option>
-                            <option value="secundario2" data-precio="12">
-                                Plato Secundario 2 - 12€
-                            </option>
-                            <option value="secundario3" data-precio="14">
-                                Plato Secundario 3 - 14€
-                            </option>
-                        </select>
-                        <br />
-
-                        <label>Agregar extras:</label>
-                        <div class="extra">
-                            <input type="checkbox" id="postre" value="5" />
-                            Postre (+5€)
+                                    <label>Agregar extras:</label>
+                                    <div class="extra">
+                                        <input
+                                            type="checkbox"
+                                            id="postre"
+                                            value="5"
+                                        />
+                                        Postre (+5€)
+                                    </div>
+                                    <div class="extra">
+                                        <input
+                                            type="checkbox"
+                                            id="bebida"
+                                            value="3"
+                                        />
+                                        Bebida (+3€)
+                                    </div>
+                                </div>
+                            </fieldset>
                         </div>
-                        <div class="extra">
-                            <input type="checkbox" id="bebida" value="3" />
-                            Bebida (+3€)
+
+                        <h3 class="presupuesto">
+                            Presupuesto Total:
+                            <span id="presupuestoFinal">0</span> €
+                        </h3>
+
+                        <div class="privacidadCont">
+                            <input type="checkbox" id="aceptar" required /><a
+                                href=""
+                                >Acepto las condiciones de privacidad</a
+                            >
                         </div>
-                    </div>
-                </fieldset>
+                        <div class="btnCont">
+                            <button type="submit">Reservar</button>
+                            <button type="reset">Resetear Formulario</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="formCont2"></div>
             </div>
-
-            <h3 class="presupuesto">
-                Presupuesto Total: <spaFn id="presupuestoFinal">0</span> €
-            </h3>
-
-            <div class="privacidadCont">
-                <input type="checkbox" id="aceptar" required /><a href=""
-                    >Acepto las condiciones de privacidad</a
-                >
-            </div>
-            <div class="btnCont">
-                <button type="submit">Reservar</button>
-                <button type="reset">Resetear Formulario</button>
-            </div>
-        </form>
+        </main>
+        <footer></footer>
     </body>
 </html>

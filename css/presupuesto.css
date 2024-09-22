@@ -1,14 +1,11 @@
-h1 {
-    margin: auto;
-    font-size: 42px;
-}
+
+
 #presupuestoForm {
     width: 1000px;
     margin: auto;
     padding: 50px 20px 50px 20px;
-    border: 2px solid white;
     border-radius: 2px;
-
+    background-color: #161616;
 }
 .fieldsetCont {
     display: flex;
@@ -17,17 +14,17 @@ h1 {
     gap: 50px;
     margin-top: 50px;
     height: 70%;
-    background-color: aqua;
 }
 fieldset {
     padding: 40px;
     border: none;
-    background-color: #161616;
+    background-color: #232323;
     width: 45%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex: 1;
+    align-items: center;
+    height: 500px;
 }
 
 h3 {
@@ -85,17 +82,18 @@ h3 {
 }
 
 .presupuesto {
-    background-color: #393939;
     width: 95%;
     margin: auto;
-    height: 90px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
+    gap: 15px;
 }
 
 .privacidadCont {
-    width: 95%;
+    width: 90%;
     height: 60px;
     display: flex;
     justify-content: left;
@@ -105,26 +103,51 @@ h3 {
     font-size: 18px;
     margin: auto;
 }
-.privacidadCont a{
+.privacidadCont a {
     text-decoration: none;
     color: white;
 }
-.privacidadCont:hover a{
+.privacidadCont:hover a {
     text-decoration: underline;
     color: rgb(40, 77, 53);
 }
 
-.btnCont{
+.btnCont {
     width: 95%;
-    background-color: beige;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 120px;
     margin-top: 50px;
 }
-button{
+button {
     width: 300px;
     font-size: 24px;
     padding: 20px;
+}
+
+button:hover {
+    background-color: rgb(40, 77, 53);
+    color: white;
+}
+
+.formCont1{
+    border: 2px solid white;
+    width: 1080px;
+    padding: 40px 0 40px 0;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.formCont2{
+    border: 2px solid white;
+    width: 1120px;
+    height: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
